@@ -13,7 +13,7 @@ en_link: /v2/en/intro
 <div>
 
 <p className="hs-home-eyebrow">2.0 · v2.0.4</p>
-<p className="hs-version-note">基于 v2.0.4 发布版的文档。<a href="/dev/zh/intro">查看 dev 文档 →</a></p>
+<p className="hs-version-note">基于 v2.0.4 发布版的文档。<a href="https://java.agentscope.io/dev/zh/intro">查看 dev 文档 →</a></p>
 
 <h1 className="hs-hero__headline">
 构建<span className="hs-hero__accent">分布式、企业级</span>智能体！

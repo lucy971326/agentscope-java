@@ -344,7 +344,7 @@ Skills 是把"可复用的操作流程"结构化的方式。在工作区的 `ski
 ## 总结
 AgentScope Java 1.1 把 Harness Engineering 里大家最想要、却最难自己拼装的一组能力，收敛成了 `HarnessAgent`** + 工作区约定 + 可插拔文件系统 + Hook 管线`**：个人场景下，它是“带记忆、带压缩、带子任务”的加强版 ReAct Agent；企业场景下，它是能把**隔离、多租户、分布式记忆与子 Agent 编排**变成配置项的基础设施。
 
-若你正在评估从个人助手原型演进到可上线的企业智能体，建议从 [Harness 概览](/v1/zh/docs/harness/overview) 的快速开始跑通，再按 [Filesystem](/v1/zh/docs/harness/filesystem) 选择一种声明式模式，然后按需打开压缩、沙箱与子 Agent——每一步都有对应文档与示例模块可对照，而不必从零发明一套“工作区即真理”的运行时。
+若你正在评估从个人助手原型演进到可上线的企业智能体，建议从 [Harness 概览](https://java.agentscope.io/v1/zh/docs/harness/overview) 的快速开始跑通，再按 [Filesystem](https://java.agentscope.io/v1/zh/docs/harness/filesystem) 选择一种声明式模式，然后按需打开压缩、沙箱与子 Agent——每一步都有对应文档与示例模块可对照，而不必从零发明一套“工作区即真理”的运行时。
 
 
 

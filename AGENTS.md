@@ -40,14 +40,14 @@ AI coding instructions for AgentScope Java.
 - `agentscope-examples/` — runnable examples.
 - `agentscope-dependencies-bom/` — third-party versions.
 - `agentscope-distribution/` — published BOM and aggregate distribution.
-- `docs/` — Mintlify documentation.
+- `docs/v2/` — AgentScope Java 2.0 documentation and assets for local reference.
 
 ### Read when relevant
 
 - Contribution rules: [CONTRIBUTING.md](CONTRIBUTING.md).
-- Harness behavior: [docs/dev/en/docs/harness/architecture.md](docs/dev/en/docs/harness/architecture.md).
+- Harness behavior: [2.0 Harness architecture](docs/v2/zh/docs/harness/architecture.md) and [upstream development documentation](https://java.agentscope.io/dev/zh/docs/harness/architecture).
 - Channel vocabulary: [CONTEXT.md](CONTEXT.md).
-- Documentation work: [docs/README.md](docs/README.md).
+- Documentation entry point: [中文](docs/v2/zh/intro.md).
 - POMs, manifests, and workflows are the source of truth for commands and versions.
 
 ## 3. Engineering rules
@@ -94,7 +94,7 @@ AI coding instructions for AgentScope Java.
 
 ### Docs
 
-- Docs: `cd docs; npm test; npm run validate; npm run broken-links`.
+- Check local Markdown links and assets when editing the 2.0 reference.
 - Packaging/deployment: run the relevant release and source checks too.
 
 ## 5. Change workflow
@@ -102,7 +102,7 @@ AI coding instructions for AgentScope Java.
 - Inspect `git status` and relevant code first.
 - Clarify public behavior, compatibility, and scope before coding.
 - Implement → test → inspect the complete diff.
-- User-visible behavior change → update matching `docs/dev` EN and ZH pages and affected examples.
+- User-visible behavior changes → update affected examples and the corresponding documentation in the upstream development branch.
 - Run the relevant §4 check; cross-module or public-contract changes require the full check.
 - Check for unrelated files, generated output, format errors, and secrets.
 - Do not commit or push without user authorization.

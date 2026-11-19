@@ -5,7 +5,7 @@ en_link: /v2/en/docs/index
 ---
 
 <Note>
-本页属于 2.0 文档，基于 `v2.0.4` 发布标签整理。SDK 示例请使用 AgentScope Java `2.0.4`；当前开发版本的 API 请参阅 [dev 文档](/dev/zh/intro)。
+本页属于 2.0 文档，基于 `v2.0.4` 发布标签整理。SDK 示例请使用 AgentScope Java `2.0.4`；当前开发版本的 API 请参阅 [dev 文档](https://java.agentscope.io/dev/zh/intro)。
 </Note>
 
 
